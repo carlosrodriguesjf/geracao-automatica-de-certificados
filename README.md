@@ -63,7 +63,7 @@ A planilha `planilha_cursos.xlsx` contém as seguintes colunas:
 ## 🚀 Como Executar o Projeto
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu_usuario/geracao_certificados.git
+   git clone https://github.com/carlosrodriguesjf/automacao-geracao-de-certificados.git
    cd geracao_certificados
    ```
 2. Crie um ambiente virtual e instale as dependências:

@@ -4,6 +4,7 @@
 import openpyxl
 from PIL import Image, ImageDraw, ImageFont
 
+## Carregando os dados da planilha
 
 # abrindo a pasta de trabalho
 workbook_alunos = openpyxl.load_workbook(r'arquivos_base/planilha_cursos.xlsx')
@@ -12,6 +13,8 @@ workbook_alunos = openpyxl.load_workbook(r'arquivos_base/planilha_cursos.xlsx')
 sheet_alunos = workbook_alunos['Sheet1']
 
 for indice, linha in enumerate(sheet_alunos.iter_rows(min_row=2)):
+
+    # preenchendo as variáveis com os dados da planilha
     nome_curso = linha[0].value
     nome_aluno = linha[1].value
     data_inicio = linha[2].value
