@@ -12,7 +12,8 @@ Este projeto tem como objetivo automatizar a geração de certificados personali
 
 
 ## 🔍 Considerações Iniciais
-- O modelo de certificado base deve estar localizado na pasta `arquivos_base/`.
+- Foram criados como exemplo um modelo de certificado (`certificado_padrao.png`) e um modelo de assinatura do diretor (`assinatura.png`)
+- O modelo de certificado padrão e o modelo de assinatura devem estar localizados na pasta `arquivos_base/`.
 - As informações dos alunos devem estar em um arquivo Excel (`planilha_cursos.xlsx`).
 - As fontes utilizadas no certificado devem estar armazenadas na pasta `fontes/`.
 - O arquivo com a assinatura do diretor no certificado deve estar na pasta `arquivos_base/`.
