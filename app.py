@@ -17,9 +17,11 @@ for indice, linha in enumerate(sheet_alunos.iter_rows(min_row=2)):
     data_inicio = linha[2].value
     data_termino = linha[3].value
     carga_horaria = linha[4].value
-    
-    # Preenchimento dinâmico dos seguintes campos no certificado:
 
+    
+    ## Preenchimento dinâmico dos seguintes campos no certificado:
+
+    # carregamento das fontes
     fonte_nome = ImageFont.truetype('./fontes/TAHOMABD.TTF',90)
     fonte_geral = ImageFont.truetype('./fontes/TAHOMA.TTF',45)
 
